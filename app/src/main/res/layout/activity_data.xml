@@ -9,11 +9,81 @@
 
 
     <EditText
+        android:id="@+id/editText7"
+        android:layout_width="157dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="124dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="157dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="84dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="344dp"
+        android:text="Username"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="157dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="340dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="260dp"
+        android:text="Product_id"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="157dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="256dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
         android:id="@+id/editText5"
         android:layout_width="157dp"
         android:layout_height="26dp"
         android:layout_marginStart="168dp"
-        android:layout_marginTop="260dp"
+        android:layout_marginTop="296dp"
         android:background="@android:color/white"
         android:ems="10"
         android:inputType="textPersonName"
@@ -29,28 +99,6 @@
         android:background="@android:color/white"
         android:ems="10"
         android:inputType="textPersonName"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Spinner
-        android:id="@+id/simpleSpinner2"
-        android:layout_width="127dp"
-        android:layout_height="26dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="168dp"
-        android:layout_marginTop="120dp"
-        android:background="@android:color/white"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Spinner
-        android:id="@+id/simpleSpinner"
-        android:layout_width="127dp"
-        android:layout_height="26dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="168dp"
-        android:layout_marginTop="80dp"
-        android:background="@android:color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -80,9 +128,9 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="104dp"
-        android:layout_marginTop="28dp"
-        android:text="Return Goods Details"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="24dp"
+        android:text="Goods Details"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -126,8 +174,8 @@
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="72dp"
-        android:layout_marginTop="264dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="300dp"
         android:text="Date of Deliver"
         android:textColor="@color/colorPrimaryDark"
         app:layout_constraintStart_toStartOf="parent"
@@ -137,10 +185,11 @@
         android:id="@+id/button2"
         android:layout_width="105dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="124dp"
-        android:layout_marginTop="304dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="396dp"
         android:background="@color/colorPrimaryDark"
         android:text="Submit"
+        android:onClick="registerBtn"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>

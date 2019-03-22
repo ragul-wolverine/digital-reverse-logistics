@@ -5,22 +5,28 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btn;
+    EditText usr,pas;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btn = (Button) findViewById(R.id.button);
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, data.class);
-                startActivity(intent);
-            }
-        });
+        usr = (EditText) findViewById(R.id.username);
+        pas = (EditText) findViewById(R.id.password);
+
+    }
+
+
+    public void loginBtn(View view){
+        String username = usr.getText().toString();
+        String password = pas.getText().toString();
+
+        background bg;
+        bg = new background(this);
+        bg.execute(username,password);
     }
 }

@@ -7,83 +7,26 @@
     android:background="@color/colorPrimary"
     tools:context=".Final">
 
-    <EditText
-        android:id="@+id/editText9"
-        android:layout_width="189dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="160dp"
-        android:layout_marginTop="252dp"
-        android:background="@android:color/white"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <TextView
-        android:id="@+id/textView12"
+        android:id="@+id/textView11"
         android:layout_width="wrap_content"
-        android:layout_height="16dp"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="260dp"
-        android:text="Holder Name"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="204dp"
+        android:text="Return goods details"
         android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="107dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="204dp"
-        android:layout_marginTop="336dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="268dp"
         android:background="@color/colorPrimaryDark"
-        android:text="Exit"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/editText8"
-        android:layout_width="189dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="160dp"
-        android:layout_marginTop="196dp"
-        android:background="@android:color/white"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="wrap_content"
-        android:layout_height="16dp"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="204dp"
-        android:text="Ifsc no"
-        android:textColor="@color/colorPrimaryDark"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/editText7"
-        android:layout_width="189dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="160dp"
-        android:layout_marginTop="152dp"
-        android:background="@android:color/white"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="wrap_content"
-        android:layout_height="16dp"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="160dp"
-        android:text="Account number"
-        android:textColor="@color/colorPrimaryDark"
+        android:text="search"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -91,45 +34,22 @@
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="152dp"
-        android:layout_marginTop="48dp"
-        android:text="Profile"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="60dp"
+        android:text="Product details port"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="wrap_content"
-        android:layout_height="16dp"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="104dp"
-        android:text="Location"
-        android:textColor="@color/colorPrimaryDark"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/editText6"
-        android:layout_width="190dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="160dp"
-        android:layout_marginTop="96dp"
-        android:background="@android:color/white"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <Button
         android:id="@+id/button3"
-        android:layout_width="107dp"
+        android:layout_width="159dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="336dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="116dp"
         android:background="@color/colorPrimaryDark"
-        android:text="Save"
+        android:text="Register product"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

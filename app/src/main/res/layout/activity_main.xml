@@ -36,9 +36,9 @@
         app:layout_constraintVertical_bias="0.23" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/username"
         android:layout_width="wrap_content"
-        android:layout_height="26dp"
+        android:layout_height="22dp"
         android:layout_marginStart="96dp"
         android:layout_marginTop="124dp"
         android:background="@android:color/white"
@@ -58,6 +58,7 @@
         android:layout_marginBottom="8dp"
         android:background="@color/colorPrimaryDark"
         android:text="LOGIN"
+        android:onClick="loginBtn"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.178"
@@ -66,7 +67,7 @@
         app:layout_constraintVertical_bias="0.478" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="132dp"
